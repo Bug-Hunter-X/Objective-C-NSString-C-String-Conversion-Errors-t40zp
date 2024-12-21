@@ -1,0 +1,1 @@
+In Objective-C, a common yet subtle error arises when dealing with `NSString` objects and their interaction with C-style strings.  Specifically, issues can occur when attempting to directly pass a C-style string (e.g., `char *`) to methods expecting an `NSString`, without proper conversion.  This might manifest as unexpected behavior, crashes, or memory leaks.
